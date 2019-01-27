@@ -1,0 +1,70 @@
+baseurl = "https://DocsThursday.com/"
+title = "DocsThursday"
+theme = "docsthursday-2019"
+
+googleAnalytics = "UA-110993459-5"
+
+enableEmoji = true
+
+[params]
+	description	= "A global initiative to contribute to open source documentation (docs) on the Third Thursday of every month."
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+
+[[menu.main]]
+	name	= "Participate"
+	url		= "/participate/"
+	weight	= 5
+
+[[menu.main]]
+	name	= "Featured Docs"
+	url		= "/featured/"
+	weight	= 10
+
+#[[menu.main]]
+#	name	= "Meetups"
+#	url		= "/meetups/"
+#	weight	= 15
+
+#[[menu.main]]
+#	name	= "FAQ"
+#	url		= "/faq/"
+#	weight	= 20
+
+[[menu.main]]
+	name	= "About"
+	url		= "/about/"
+	weight	= 25
+
+[[menu.main]]
+	name	= "Contact"
+	url		= "/contact/"
+	weight	= 30
+
+
+[[menu.social]]
+    url = "https://twitter.com/FelicianoTech"
+    name = "twitter"
+    weight = 1
+
+[[menu.social]]
+    name = "github"
+    url = "https://github.com/FelicianoTech"
+    weight = 2
+
+[[menu.social]]
+    url = "https://www.facebook.com/FelicianoTech"
+    name = "facebook"
+    weight = 3
+
+[[menu.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/FelicianoTech/"
+    weight = 4
+
+[[menu.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/ricardofeliciano"
+    weight = 5
