@@ -99,6 +99,19 @@ main.single{
 	form{
 		width: 75%;
 	}
+
+	form.slim{
+		input[type=email],
+		input[type=submit]{
+			display: block;
+			border-radius: 5px;
+			width: 100%;
+		}
+
+		input[type=email]{
+			border: 1px solid $tertiary-color;
+		}
+	}
 }
 
 
