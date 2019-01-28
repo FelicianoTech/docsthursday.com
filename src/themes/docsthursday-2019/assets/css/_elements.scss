@@ -94,6 +94,28 @@ form{
 		height: 100px;
 	}
 
+	&.slim{
+		text-align: center;
+
+		input[type=email]{
+			display: inline-block;
+			margin-right: -5px;
+			border-radius: 5px 0 0 5px;
+			border: 1px solid $tertiary-color;
+			border-right: none;
+			padding: 15px;
+			width: 30%;
+			height: 38px;
+			text-align: center;
+		}
+
+		input[type="submit"]{
+			display: inline-block;
+			margin: 0;
+			border-radius: 0 5px 5px 0;
+			width: 150px;
+		}
+	}
 }
 
 
