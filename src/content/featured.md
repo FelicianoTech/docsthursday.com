@@ -4,3 +4,13 @@ description: "Here's how you can easily participate in DocsThursday every month 
 ---
 
 Want to get your docs repo featured? Find out how [here](/how-to-be-featured/).
+
+---
+
+## CircleCI Docs
+
+{{< figure  src="/assets/img/logos/circleci.png" width="400px" >}}
+
+- Website: <https://CircleCI.com/docs>
+- Engine: [Jekyll](https://jekyllrb.com/)
+- License: MIT / CC-NC-SA 4.0
