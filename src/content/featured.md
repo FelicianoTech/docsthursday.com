@@ -14,3 +14,12 @@ Want to get your docs repo featured? Find out how [here](/how-to-be-featured/).
 - Website: <https://CircleCI.com/docs>
 - Engine: [Jekyll](https://jekyllrb.com/)
 - License: MIT / CC-NC-SA 4.0
+
+
+## GitLab CE Docs
+
+{{< figure  src="/assets/img/logos/gitlab-logo.svg" width="400px" >}}
+
+- Website: <https://docs.gitlab.com/ce/README.html>
+- Engine: [Nanoc](https://nanoc.ws/)
+- License: MIT / CC-SA 4.0
