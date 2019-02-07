@@ -23,10 +23,10 @@ enableEmoji = true
 	url		= "/featured/"
 	weight	= 10
 
-#[[menu.main]]
-#	name	= "Meetups"
-#	url		= "/meetups/"
-#	weight	= 15
+[[menu.main]]
+	name	= "Events"
+	url		= "/events/"
+	weight	= 15
 
 #[[menu.main]]
 #	name	= "FAQ"
