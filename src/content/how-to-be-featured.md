@@ -4,7 +4,7 @@ description: "How to get your docs repository featured on DocsThursday."
 ---
 
 We like to feature doc repos that are well cared after and follow some [basic community management guidelines](https://www.feliciano.tech/blog/docs-community-management-on-github/).
-The idea is that we want maintained repos that provide some basic tools to make it easier for outsiders to contribute.
+The idea is that we want maintained repos that provide some basic tools to make it easier for outsiders to contribute, whether that project is on GitHub or GitLab.
 
 To get your docs repo featured on DocsThursday you need to:
 
@@ -18,7 +18,7 @@ In the repository...
 
 Outside the repository...
 
-1. Tag the repository with the [GitHub topic](https://help.github.com/articles/about-topics/) `DocsThursday` - this is how we can find you.
+1. [If on GitHub] Tag the repository with the [GitHub topic](https://help.github.com/articles/about-topics/) `DocsThursday` - this is how we can find you.
 1. Share the news - announce that your project/company's docs are participating in DocsThursday via your blog or forum.
 
 With these requirements met, we should be able to pick up your project within a couple of weeks.
