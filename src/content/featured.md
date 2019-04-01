@@ -23,3 +23,13 @@ Want to get your docs repo featured? Find out how [here](/how-to-be-featured/).
 - Website: <https://docs.gitlab.com/ce/README.html>
 - Engine: [Nanoc](https://nanoc.ws/)
 - License: MIT / CC-SA 4.0
+
+
+## Pantheon Docs
+
+{{< figure src="/assets/img/logos/pantheon.png" width="400px" >}}
+
+ - Website: <https://pantheon.io/docs/>
+ - Engine: [Sculpin](https://sculpin.io)
+ - License: [CC-SA 4.0 / MIT](https://github.com/pantheon-systems/documentation/blob/master/LICENSE)
+
