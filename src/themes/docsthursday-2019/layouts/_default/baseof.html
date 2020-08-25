@@ -25,7 +25,7 @@
 <body class="{{ if .IsHome }}home {{ end }}{{ if .Section }}section-{{ .Section }}{{ end }}">
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
-	{{ if not .IsHome }}{{ partial "footer" . }}{{ end }}
+	{{ partial "footer" . }}
 	{{ partial "js-footer" . }}
 </body>
 </html>
