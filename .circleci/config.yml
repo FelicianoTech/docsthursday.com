@@ -12,12 +12,12 @@ workflows:
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.54
+      - image: hubci/gotham:0.6
     steps:
       - checkout
       - run:
-          name: "Build Website With Hugo"
-          command: HUGO_ENV=production hugo -v -s src/
+          name: "Build Website With Gotham"
+          command: HUGO_ENV=production gotham -v -s src/
       - run:
           name: "Test Website"
           command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
@@ -27,7 +27,7 @@ jobs:
             - public
   deploy-production:
     docker:
-      - image: cibuilds/hugo:0.54
+      - image: hubci/gotham:0.6
     steps:
       - attach_workspace:
           at: src
